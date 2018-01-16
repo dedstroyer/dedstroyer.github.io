@@ -1,0 +1,38 @@
+{
+  "name": "devianllert.github.io",
+  "version": "1.0.0",
+  "description": "developments",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -p",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devianllert/devianllert.github.io.git"
+  },
+  "author": "devianllert (Ruslan Povolockii)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devianllert/devianllert.github.io/issues"
+  },
+  "homepage": "https://github.com/devianllert/devianllert.github.io#readme",
+  "devDependencies": {
+    "browser-sync": "^2.23.5",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-file-include": "^2.0.1",
+    "gulp-group-css-media-queries": "^1.2.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglifyjs": "^0.6.2",
+    "smart-grid": "^2.0.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.0"
+  },
+  "dependencies": {}
+}
