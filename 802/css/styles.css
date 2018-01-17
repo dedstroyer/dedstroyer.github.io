@@ -1,0 +1,44 @@
+ .page {
+    margin: 20px 0
+  }
+  
+  .wrapper {
+    max-width: 1160px;
+    margin: 0 auto;
+    position: relative;
+    padding: 0 20px;
+    min-height: 600px;
+  }
+  
+  .content-wrapper {
+    float: left;
+    width: 100%;
+  }
+  .content {
+    margin-right: 320px;
+    clear: both;
+    overflow: auto;
+    background: #1abc9c;
+    background: rgba(26,188,156, 0.4);
+    min-height: 600px;
+  }
+  
+  .sidebar {
+    position: relative;
+    width: 320px;
+    margin-left: -320px;
+    float: right;
+    overflow: hidden;
+    background: #2c3e50;
+    background: rgba(44,62,80, 0.4);
+    color: #eee;
+    min-height: 600px;
+  }
+  @media only screen and (max-width: 768px) {
+    .sidebar {
+      display: none;
+    }
+    .content {
+      margin-right: 0;
+    }
+  }

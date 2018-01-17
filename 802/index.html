@@ -2,148 +2,23 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Главная</title>
+	<title>Прототип сайта кафедры 802</title>
+	<link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-
-<style>
-	
-	body {
-		padding: 0;
-		margin: 0;
-		height: 100vh;
-		display: -webkit-flex;
-		display: -moz-flex;
-		display: -ms-flex;
-		display: -o-flex;
-		display: flex;
-		justify-content: center;
-		-ms-align-items: center;
-		align-items: center;
-	}
-		
-	.link {
-	  text-decoration: none;
-	  color: #000;
- 	  cursor: pointer;	
-	  display: flex;
-	  align-items: center;
-	  justify-content: center;
-	  position: relative;
-	  margin: 20px auto;
-	  width: 250px;
-	  height: 250px;
-	  background: rgb(56, 148, 235);
-	  border-radius: 75px;
-	  font-family: 'Montserrat', sans-serif;
-	  font-size: 20px;
-	  font-weight: lighter;
-	  letter-spacing: 2px;
-	  transition: 1s box-shadow;
-	}
-
-	.link:hover {
-	  box-shadow: 0 5px 35px 0px rgba(0,0,0,.1);
-	}
-
-	.link:hover:before, .link:hover:after {
-	  display: block;
-	  content: '';
-	  position: absolute;
-	  width: 250px;
-	  height: 250px;
-	  background: #FDA8CF;
-	  border-radius: 75px;
-	  z-index: -1;
-	  animation: 1s clockwise infinite;
-	}
-
-	.link:hover:after {
-	  background: rgb(30, 241, 125);
-	  animation: 2s counterclockwise infinite;
-	}
-
-	@keyframes clockwise {
-	  0% {
-	    top: -5px;
-	    left: 0;
-	  }
-	  12% {
-	    top: -2px;
-	    left: 2px;
-	  }
-	  25% {
-	    top: 0;
-	    left: 5px;    
-	  }
-	  37% {
-	    top: 2px;
-	    left: 2px;
-	  }
-	  50% {
-	    top: 5px;
-	    left: 0;    
-	  }
-	  62% {
-	    top: 2px;
-	    left: -2px;
-	  }
-	  75% {
-	    top: 0;
-	    left: -5px;
-	  }
-	  87% {
-	    top: -2px;
-	    left: -2px;
-	  }
-	  100% {
-	    top: -5px;
-	    left: 0;    
-	  }
-	}
-
-	@keyframes counterclockwise {
-	  0% {
-	    top: -5px;
-	    right: 0;
-	  }
-	  12% {
-	    top: -2px;
-	    right: 2px;
-	  }
-	  25% {
-	    top: 0;
-	    right: 5px;    
-	  }
-	  37% {
-	    top: 2px;
-	    right: 2px;
-	  }
-	  50% {
-	    top: 5px;
-	    right: 0;    
-	  }
-	  62% {
-	    top: 2px;
-	    right: -2px;
-	  }
-	  75% {
-	    top: 0;
-	    right: -5px;
-	  }
-	  87% {
-	    top: -2px;
-	    right: -2px;
-	  }
-	  100% {
-	    top: -5px;
-	    right: 0;    
-	  }
-	}
-
-	</style>
-	
-<a class="link" href="src/index.html">Главная</a>
-
+		<div class="page">
+				<div class="wrapper">
+					<div class="content-wrapper">
+						<div class="content">
+							<h1>Content</h1>
+							<p>&larr; Responsive Width &rarr;</p>
+						</div>
+					</div>
+					<div class="sidebar">
+						<h2>Page sidebar</h2>
+						<p>&larr; Fixed Width &rarr;</p>
+					</div>
+				</div>
+			</div>
 </body>
 </html>
